@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>articleSociety - Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(242, 239, 250);
+    }
+    #profpost, #profpost1 {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .card-body p {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row bg-dark py-2 align-items-center">
+    <div class="col-2">
+      <a href="index.html" class="text-white text-decoration-none d-flex align-items-center ">
+        <img src="../image/logart2.png" alt="Logo" width="50" height="50" class="rounded-circle">
+       
+      </a>
+    </div>
+
+<div class="col-7">
+  <div class="input-group">
+    <span class="input-group-text bg-white" id="basic-addon1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.658a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/>
+      </svg>
+    </span>
+    <input type="text" class="form-control" placeholder="Search articles..." aria-label="Search" aria-describedby="basic-addon1">
+  </div>
+</div>
+    <div class="col-3 d-flex justify-content-end align-items-center gap-2">
+      <a href="create.html" class="btn btn-outline-light " style="width: fit-content">+ Create Post</a>
+      <a href="profile.html">
+        <img src="../image/profile.jpg" alt="Profile" width="42" height="40" style="border-radius: 50%; object-fit: cover;">
+      </a>
+    </div>
+  </div>
+
+  
+<!-- Posts Section -->
+<div class="container mt-4">
+  <div class="row g-4">
+    <!-- Post 1 -->
+    <div class="col-12">
+      <div class="card shadow-sm">
+        <div class="card-header d-flex align-items-center">
+          <img src="../image/aliaa_mahdy.png" class="rounded-circle me-3" id="profpost" alt="Profile">
+          <div>
+            <h6 class="mb-0 fw-bold">Aliaa Mahdy</h6>
+            <small class="text-muted">Published on Aug 14, 2025</small>
+          </div>
+        </div>
+        <div class="card-body">
+            <h4>Artificial Intelligence in Modern Life</h4>
+          <p>
+                                               Over the years, I have explored various fields in technology — starting from Front-End Development, where I focused on 
+                                    building responsive and visually appealing web pages, to UI/UX Design, where my goal shifted toward creating 
+                                    human-centered designs that enhance user satisfaction. Recently, I have expanded my expertise into Full Stack Development, 
+                                    allowing me to bridge the gap between design and functionality by handling both the client and server sides of applications.
+                                </p>
+                                <p>
+                                    In this article, I want to share insights into how combining design and development skills can lead to more effective 
+                                    digital solutions. By understanding both the visual and technical aspects of a product, we can create experiences that 
+                                    are not only beautiful but also highly functional and accessible to a wide range of users.
+                                </p>
+          <a href="edit.html" class="text-primary fw-bold">Read More...</a>
+        </div>
+        <div class="card-footer d-flex gap-2">
+          <input type="text" class="form-control" placeholder="Write a comment...">
+         <button class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post 2 -->
+    <div class="col-12">
+      <div class="card shadow-sm">
+        <div class="card-header d-flex align-items-center">
+          <img src="../image/nader.png" class="rounded-circle me-3" id="profpost1" alt="Profile">
+          <div>
+            <h6 class="mb-0 fw-bold">Nader Ali</h6>
+            <small class="text-muted">Published on Aug 14, 2025</small>
+          </div>
+        </div>
+        <div class="card-body">
+            <h4>Artificial Intelligence in Modern Life</h4>
+          <p>
+                                               Over the years, I have explored various fields in technology — starting from Front-End Development, where I focused on 
+                                    building responsive and visually appealing web pages, to UI/UX Design, where my goal shifted toward creating 
+                                    human-centered designs that enhance user satisfaction. Recently, I have expanded my expertise into Full Stack Development, 
+                                    allowing me to bridge the gap between design and functionality by handling both the client and server sides of applications.
+                                </p>
+                                <p>
+                                    In this article, I want to share insights into how combining design and development skills can lead to more effective 
+                                    digital solutions. By understanding both the visual and technical aspects of a product, we can create experiences that 
+                                    are not only beautiful but also highly functional and accessible to a wide range of users.
+                                </p>
+          <a href="edit.html" class="text-primary fw-bold">Read More...</a>
+        </div>
+        <div class="card-footer d-flex gap-2">
+          <input type="text" class="form-control" placeholder="Write a comment...">
+          <button class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
